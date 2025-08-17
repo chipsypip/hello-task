@@ -1,0 +1,8 @@
+# site.yml
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: Create a test file
+      copy:
+        dest: /tmp/hello.txt
+        content: "Hello world - version 1\n"
