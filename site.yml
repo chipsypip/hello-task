@@ -5,4 +5,4 @@
     - name: Create a test file
       copy:
         dest: /tmp/hello.txt
-        content: "Hello world - version 2.0 \n"
+        content: "Hello world - version 2.1 \n"
